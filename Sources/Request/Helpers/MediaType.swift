@@ -12,5 +12,5 @@ import Foundation
 public enum MediaType: String {
     case json = "application/json"
     case xml = "application/xml"
-    case xmlAWS = "application/x-amz-json-1.1"
+    case jsonAWS = "application/x-amz-json-1.1"
 }
