@@ -51,7 +51,7 @@ final class RequestTests: XCTestCase {
         performRequest(Request {
             Url("https://jsonplaceholder.typicode.com/todos")
             Method(.post)
-            Body([
+            BodyOfRequest([
                 "title": "My Post",
                 "completed": true,
                 "userId": 3,
